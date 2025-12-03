@@ -1,0 +1,291 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f1ea;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url("images/NP_header.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.main-nav li {
+    margin: 15px 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    background: #ffffff;
+    padding: 15px 25px;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #0056b3;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-nav a:hover {
+    background: #0056b3;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.park-description {
+    padding: 20px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+.gallery-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 80%;
+    margin: 20px auto;
+    height: 500px;
+}
+
+.gallery-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.gallery-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#np_brijuni { background-color: #94b9d4; }
+#np_kornati { background-color: #e5dcd5; }
+#np_krka { background-color: #e8f5e9; }
+#np_mljet { background-color: #f1f8e9; }
+#np_paklenica { background-color: #fafafa; }
+#np_plitvice { background-color: #c6d188; }
+#np_risnjak { background-color: #e8eaf6; }
+#np_sjeverni_velebit { background-color: #fce4ec; }
+
+
+#brijuni_header { background-image: url("images/brijuni/brijuni-header.jpg"); }
+#kornati_header { background-image: url("images/kornati/kornati-header.jpg"); }
+#krka_header { background-image: url("images/krka_header.jpg"); }
+#mljet_header { background-image: url("images/mljet_header.jpg"); }
+#paklenica_header { background-image: url("images/paklenica_header.jpg"); }
+#plitvice_header { background-image: url("images/plitvicka_jezera/plitvicka-jezera-header.jpg"); }
+#risnjak_header { background-image: url("images/risnjak_header.jpg"); }
+#sjeverni_velebit_header { background-image: url("images/sjeverni_velebit_header.jpg"); }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.text-content {
+    flex: 3;
+    padding-right: 40px;
+    min-width: 300px;
+}
+
+.media-content {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.other-parks-links {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.other-parks-links h2 {
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+.park-link {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.park-link:hover {
+    transform: scale(1.05);
+}
+
+a[href="np_brijuni.html"] { background-image: url('images/brijuni/brijuni-header.jpg'); }
+a[href="np_kornati.html"] { background-image: url('images/kornati/kornati-header.jpg'); }
+a[href="np_krka.html"] { background-image: url('images/krka_header.jpg'); }
+a[href="np_mljet.html"] { background-image: url('images/mljet_header.jpg'); }
+a[href="np_paklenica.html"] { background-image: url('images/paklenica_header.jpg'); }
+a[href="np_plitvice.html"] { background-image: url('images/plitvicka_jezera/plitvicka-jezera-header.jpg'); }
+a[href="np_risnjak.html"] { background-image: url('images/risnjak_header.jpg'); }
+a[href="np_sjeverni_velebit.html"] { background-image: url('images/sjeverni_velebit_header.jpg'); }
+
+.back-link-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.back-link-button {
+    text-decoration: none;
+    background: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.back-link-button:hover {
+    background: #004494;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .main-nav {
+        padding: 0 20px;
+    }
+
+    .park-description {
+        margin: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .text-content {
+        padding-right: 0;
+    }
+
+    .gallery-container {
+        width: 95%;
+        height: 300px;
+    }
+}
