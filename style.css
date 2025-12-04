@@ -131,7 +131,7 @@ header h1 {
 #np_paklenica { background-color: #fafafa; }
 #np_plitvice { background-color: #c6d188; }
 #np_risnjak { background-color: #abaaa7; }
-#np_sjeverni_velebit { background-color: #fce4ec; }
+#np_sjeverni_velebit { background-color: #c7d2be; }
 
 
 #brijuni_header { background-image: url("images/brijuni/brijuni-header.jpg"); }
@@ -141,7 +141,7 @@ header h1 {
 #paklenica_header { background-image: url("images/paklenica_header.jpg"); }
 #plitvice_header { background-image: url("images/plitvicka_jezera/plitvicka-jezera-header.jpg"); }
 #risnjak_header { background-image: url("images/risnjak/risnjak-header.jpg"); }
-#sjeverni_velebit_header { background-image: url("images/sjeverni_velebit_header.jpg"); }
+#sjeverni_velebit_header { background-image: url("images/sjeverni_velebit/sjeverni-velebit-header.jpg"); }
 
 .container {
     display: flex;
@@ -234,14 +234,14 @@ header h1 {
     transform: scale(1.05);
 }
 
-a[href="np_brijuni.html"] { background-image: url('images/brijuni/brijuni-header.jpg'); }
-a[href="np_kornati.html"] { background-image: url('images/kornati/kornati-header.jpg'); }
+a[href="np_brijuni.html"] { background-color: #1f567c; }
+a[href="np_kornati.html"] { background-color: #8c8681; }
 a[href="np_krka.html"] { background-image: url('images/krka_header.jpg'); }
 a[href="np_mljet.html"] { background-image: url('images/mljet_header.jpg'); }
 a[href="np_paklenica.html"] { background-image: url('images/paklenica_header.jpg'); }
-a[href="np_plitvice.html"] { background-image: url('images/plitvicka_jezera/plitvicka-jezera-header.jpg'); }
-a[href="np_risnjak.html"] { background-image: url('images/risnjak/risnjak-header.jpg'); }
-a[href="np_sjeverni_velebit.html"] { background-image: url('images/sjeverni_velebit_header.jpg'); }
+a[href="np_plitvice.html"] { background-color: #adc427; }
+a[href="np_risnjak.html"] { background-color: #4c4944; }
+a[href="np_sjeverni_velebit.html"] { background-color: #38432f; }
 
 .back-link-container {
     text-align: center;
