@@ -126,9 +126,9 @@ header h1 {
 
 #np_brijuni { background-color: #94b9d4; }
 #np_kornati { background-color: #e5dcd5; }
-#np_krka { background-color: #e8f5e9; }
-#np_mljet { background-color: #f1f8e9; }
-#np_paklenica { background-color: #fafafa; }
+#np_krka { background-color: #d3dda8; }
+#np_mljet { background-color:#05dcdc }
+#np_paklenica { background-color:#efbcad }
 #np_plitvice { background-color: #c6d188; }
 #np_risnjak { background-color: #abaaa7; }
 #np_sjeverni_velebit { background-color: #c7d2be; }
@@ -136,9 +136,9 @@ header h1 {
 
 #brijuni_header { background-image: url("images/brijuni/brijuni-header.jpg"); }
 #kornati_header { background-image: url("images/kornati/kornati-header.jpg"); }
-#krka_header { background-image: url("images/krka_header.jpg"); }
-#mljet_header { background-image: url("images/mljet_header.jpg"); }
-#paklenica_header { background-image: url("images/paklenica_header.jpg"); }
+#krka_header { background-image: url("images/krka/krka-header.jpg"); }
+#mljet_header { background-image: url("images/mljet/mljet-header.jpg"); }
+#paklenica_header { background-image: url("images/paklenica/paklenica-header.jpg"); }
 #plitvice_header { background-image: url("images/plitvicka_jezera/plitvicka-jezera-header.jpg"); }
 #risnjak_header { background-image: url("images/risnjak/risnjak-header.jpg"); }
 #sjeverni_velebit_header { background-image: url("images/sjeverni_velebit/sjeverni-velebit-header.jpg"); }
@@ -236,9 +236,9 @@ header h1 {
 
 a[href="np_brijuni.html"] { background-color: #1f567c; }
 a[href="np_kornati.html"] { background-color: #8c8681; }
-a[href="np_krka.html"] { background-image: url('images/krka_header.jpg'); }
-a[href="np_mljet.html"] { background-image: url('images/mljet_header.jpg'); }
-a[href="np_paklenica.html"] { background-image: url('images/paklenica_header.jpg'); }
+a[href="np_krka.html"] { background-color: #718030; }
+a[href="np_mljet.html"] { background-color: #008888; }
+a[href="np_paklenica.html"] { background-color: #ab3d1b; }
 a[href="np_plitvice.html"] { background-color: #adc427; }
 a[href="np_risnjak.html"] { background-color: #4c4944; }
 a[href="np_sjeverni_velebit.html"] { background-color: #38432f; }
